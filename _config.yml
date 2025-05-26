@@ -1,0 +1,16 @@
+title: Herramientas de Bricolaje Pro
+description: Reseñas honestas de herramientas para DIY
+baseurl: ""
+url: "https://tusuario.github.io/herramientas-bricolaje" # Cambia a tu dominio custom si lo tienes
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
